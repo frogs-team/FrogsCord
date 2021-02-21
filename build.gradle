@@ -16,7 +16,10 @@ repositories {
 archivesBaseName = "FrogsCord"
 
 dependencies {
-    compile 'net.dv8tion:JDA:4.2.0_225'
+    compile 'net.dv8tion:JDA:4.2.0_227'
+    compile 'com.jagrosh:jda-utilities:3.0.5'
+    compile 'net.dv8tion:JDA:3.0.5'
+    compile 'com.jagrosh:jda-utilities-command:3.0.5'
 }
 
 task fatJar(type: Jar) {
